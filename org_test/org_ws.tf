@@ -15,7 +15,7 @@ resource "tfe_oauth_client" "test" {
   api_url          = "https://api.github.com"
   http_url         = "https://github.com"
   # Personal Access Token is used for this setting
-  oauth_token      = "7dab3fa7c9e618e2bf2029092fbf07247c03a8ad" 
+  oauth_token      = "asdasdasdasdasdasd" 
   service_provider = "github"
 }
 
