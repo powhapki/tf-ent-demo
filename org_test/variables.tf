@@ -1,7 +1,7 @@
 # Every variables in here can be set as a Terraform Variable at TFE. 
 # Using Terraform Variables on TFE is more secure way and recommended.
 variable "hostname" {
-    default = "app.terraform.io"
+    default = "TFE_HOST_NAEM"
 }
 
 variable "token" {
@@ -9,15 +9,15 @@ variable "token" {
 }
 
 variable "ws_name" {
-    default = "c-w-005"
+    default = "WS_NAME"
 }
 
 variable "vd_org" {
-    default = "sec-vd-test001"
+    default = "ORG_NAME"
 }
 
 variable "user_name" {
-    default = "c-w-005"
+    default = "AWS_IAM_USER_NAME"
 }
 
 variable "vcs_token" {
@@ -25,7 +25,7 @@ variable "vcs_token" {
 }
 
 variable "repo_id" {
-    default = "jsp-hashicorp/jsp-hashicorp.github.io"
+    default = "GitHub Repo :org/:repo"
 }
 
 # This variables can be set as an Environment Variables at TFE either sensitive or not.
